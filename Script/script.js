@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             itemInput.value = '';
             quantityInput.value = '';
+        else { 
+            alert("Please add an item to the grocery list")
+            }
         }
     });
 });
